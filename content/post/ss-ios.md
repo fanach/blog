@@ -23,7 +23,7 @@ iPhone / iPad
 本文简要叙述 iOS 设备中 Shadowsocks 客户端的安装、配置和使用过程。
 
 # 下载软件
-未越狱的 iOS 设备，需要安装付费应用 Shadowrocket，购买正版需要 6 元。
+未越狱的 iOS 设备，需要安装付费应用 Shadowrocket，购买正版需要 18 元。
 
 （可私信联系我，提供已购买 Shadowrocket 的 Apple ID 账号，登录即可免费下载）
 
