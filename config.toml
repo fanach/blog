@@ -1,4 +1,46 @@
-languageCode = "zh-cn"
+# hostname (and path) to the root, e.g. http://spf13.com/
+baseurl = "https://fanach.github.io/"
+
+# include content marked as draft
+buildDrafts = false
+
+# include content with publishdate in the future
+buildFuture = false
+
+# include content already expired
+buildExpired = false
+
+languageCode = "en-us"
 title = "Fanach Blog"
+
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
 canonifyURLs = true
+
+disqusShortname = "VeayoX"
+
+# Enable Emoji emoticons support for page content.
+# See www.emoji-cheat-sheet.com
+enableEmoji = true
+
+# theme to use (located by default in /themes/THEMENAME/)
+themesDir = "themes"
 theme = "hugo-lithium-theme"
+
+[params]
+    description = ""
+    disqusURL = "https://fanach.github.io"
+    [params.logo]
+    url = "favicon.ico"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+[[menu.main]]
+    name = "Articles"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
