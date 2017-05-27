@@ -1,3 +1,4 @@
 languageCode = "zh-cn"
 title = "Fanach Blog"
 canonifyURLs = true
+theme = "hugo-lithium-theme"
