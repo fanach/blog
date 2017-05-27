@@ -1,10 +1,10 @@
 install:
-  - curl -sSL -o /tmp/hugo.tar.gz https://github.com/spf13/hugo/releases/download/v0.21/hugo_0.21_Linux-64bit.tar.gz
-  - tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin/
-  - rm /tmp/hugo.tar.gz
+  - curl -sSL -o ./hugo.tar.gz https://github.com/spf13/hugo/releases/download/v0.21/hugo_0.21_Linux-64bit.tar.gz
+  - tar -xzf /tmp/hugo.tar.gz -C ./
+  - rm ./hugo.tar.gz
 
 script:
-  - hugo
+  - ./hugo
 
 deploy:
   provider: pages
