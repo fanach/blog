@@ -1,0 +1,24 @@
+env:
+  - HUGO_REPO="github.com/spf13/hugo"
+  - HUGO_VER="0.21"
+  - DOWNLOAD_DIR="/tmp"
+  - INSTALL_DIR="/usr/local/bin"
+
+install:
+  - curl -sSL -o ${DOWNLOAD_DIR}/hugo.tar.gz https://${HUGO_REPO}/releases/download/v${HUGO_VER}/hugo_${HUGO_VER}_Linux-64bit.tar.gz
+  - tar -xzf ${DOWNLOAD_DIR}/hugo.tar.gz -C ${INSTALL_DIR}/
+  - rm ${DOWNLOAD_DIR}/hugo.tar.gz
+
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_API_KEY
+  on:
+    branch: master
+  local_dir: public
+  repo: fanach.github.io
+  target_branch: master
+
