@@ -21,7 +21,7 @@ sync:
 	git submodule update --init --recursive
 
 view:
-	hugo server --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313/ ./
+	hugo server -w --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313/ --buildDrafts ./
 
 publish:
 	hugo -b https://fanach.github.io/ -d fanach.github.io
