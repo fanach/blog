@@ -2,6 +2,10 @@ sudo: false
 
 language: go
 
+cache:
+  directories:
+  - $GOPATH
+
 install: go get -v github.com/spf13/hugo
 
 script:
