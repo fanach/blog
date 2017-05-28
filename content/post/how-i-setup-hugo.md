@@ -2,7 +2,6 @@
 title = "我是如何用 Hugo、Travis CI 和 GitHub Pages 搭建博客的?"
 date = "2017-05-17T16:10:32+08:00"
 description = "我用 Vim 写 Markdown，Hugo 生成静态内容，Chrome 预览，用 Git 进行版本控制并存储博问和配置到 GitHub，用 Travis CI 构建并发布博文到 GitHub Pages。"
-draft = true
 +++
 
 
@@ -136,6 +135,8 @@ $ git clone https://github.com/jrutheiser/hugo-lithium-theme --depth=1 themes
 ```toml
 theme = "hugo-lithium-theme"
 ```
+
+> 这个主题干净简介，但对代码、引用显示效果不好，后面我得改改 Markdown Render。
 
 ## 预览内容
 执行下面命令，使用 Hugo 生成静态内容并在本地启动 HTTP Server。
@@ -567,7 +568,13 @@ Settings -> Personal access tokens -> Generate new token，输入密码。
 
 在 `blog` 这个 Repo 里，创建文件 `.travis.yml`，内容参考下面。
 ```yml
+sudo: false
+
 language: go
+
+cache:
+  directories:
+  - $GOPATH
 
 install: go get -v github.com/spf13/hugo
 
@@ -620,7 +627,7 @@ deploy:
 
 ## FAQ
 ### 如果我有自己的域名，并想重定向到 GitHub Pages，可以嘛？
-**答：**似乎不行，我试过 CNAME 重定向，结果 GitHub Pages 是工作了。但自己的域名显示不了。
+**答：** 似乎不行，我试过 CNAME 重定向，结果 GitHub Pages 是工作了。但自己的域名显示不了。
 可以试一试，改掉 baseURL 为自己的域名，然后重新生成、提交一次。但这样就
 牺牲 GitHub Pages 了。
 
