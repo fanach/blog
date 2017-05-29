@@ -87,4 +87,4 @@ Android
 [3]: https://youtube.com
 [4]: https://youtube.com
 [5]: http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html
-[download-android]: https://github.com/fanach/download/releases/download/latest/shadowsocks-2.5.8.zip
+[download-android]: https://github.com/fanach/download/releases/download/latest/shadowsocks-nightly-4.1.7.apk
