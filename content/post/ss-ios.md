@@ -27,6 +27,9 @@ iPhone / iPad
 
 （可私信联系我，提供已购买 Shadowrocket 的 Apple ID 账号，登录即可免费下载）
 
+iOS 应用商店中，也有免费的软件，如 [Wingy][wingy] 、LiFi Shadowsocks 和
+ [SsrConnect][ssr] 等，也可试试。
+
 <center>
 <img src="ios-shadowrocket-01.png" width=320/>
 
@@ -125,3 +128,5 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 [3]: https://youtube.com
 [4]: https://youtube.com
 [5]: http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html
+[wingy]: https://itunes.apple.com/cn/app/wingy-proxy-for-http-s-socks5/id1178584911
+[ssr]： https://itunes.apple.com/app/shadowconnecting/id1161221960
