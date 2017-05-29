@@ -129,4 +129,4 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 [4]: https://youtube.com
 [5]: http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html
 [wingy]: https://itunes.apple.com/cn/app/wingy-proxy-for-http-s-socks5/id1178584911
-[ssr]： https://itunes.apple.com/app/shadowconnecting/id1161221960
+[ssr]: https://itunes.apple.com/app/shadowconnecting/id1161221960
