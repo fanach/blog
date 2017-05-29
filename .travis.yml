@@ -2,6 +2,12 @@ sudo: false
 
 language: go
 
+env:
+  - TRAVIS_BUILD_DIR=~/
+  
+git:
+  depth: 1
+  
 cache:
   directories:
   - $GOPATH
