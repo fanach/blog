@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/fanach/blog.svg)](https://travis-ci.org/fanach/blog)
+
+
 # blog
 Writing blogs with vim and markdown, publish with git, docker and hugo.
 
