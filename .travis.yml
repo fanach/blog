@@ -2,20 +2,12 @@ sudo: false
 
 language: go
 
-env:
-  - TRAVIS_BUILD_DIR=~/
-  
 git:
   depth: 1
   
-cache:
-  directories:
-  - $GOPATH
-
 install: go get -v github.com/spf13/hugo
 
 script:
-  - pwd
   - hugo
 
 deploy:

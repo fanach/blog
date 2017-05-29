@@ -572,9 +572,8 @@ sudo: false
 
 language: go
 
-cache:
-  directories:
-  - $GOPATH
+git:
+  depth: 1
 
 install: go get -v github.com/spf13/hugo
 
