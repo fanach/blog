@@ -4,7 +4,7 @@ date = "2017-05-30"
 +++
 
 <center>
-<img src="chrome-chromium.jpg"/>
+<img src="chrome-chromium.jpg" width="50%" />
 
 Chrome / Chromium
 </center>
@@ -15,7 +15,7 @@ Chrome / Chromium
 Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。
 
 <center>
-<img src="chrome-proxy-01.png" width=640/>
+<img src="chrome-proxy-01.png" width="95%" />
 
 图1. SwitchyOmega
 </center>
@@ -28,7 +28,7 @@ Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。
 到 Chrome 插件页面中。
 
 <center>
-<img src="chrome-proxy-02.png" width=640/>
+<img src="chrome-proxy-02.png" width="95%" />
 
 图2. 安装 SwitchyOmega
 </center>
@@ -36,7 +36,7 @@ Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。
 在弹出提示页面，确定安装。之后 SwitchyOmega 配置页面将自动打开。
 
 <center>
-<img src="chrome-proxy-03.png" width=720/>
+<img src="chrome-proxy-03.png" width="95%" />
 
 图3. SwitchyOmega 配置页
 </center>
@@ -47,7 +47,7 @@ Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。
 设置服务器为 `127.0.0.1`，端口为 `1080`（本地端口），最后点左下方 “Apply changes” 保存。
 
 <center>
-<img src="chrome-proxy-04.png" width=720/>
+<img src="chrome-proxy-04.png" width="95%" />
 
 图4. 设置 SwitchyOmega
 </center>
@@ -55,7 +55,7 @@ Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。
 最后，在控件栏找到 SwitchyOmega 。
 
 <center>
-<img src="chrome-proxy-05.png" width=480/>
+<img src="chrome-proxy-05.png" width="95%" />
 
 图5. 启用代理
 </center>
@@ -63,7 +63,7 @@ Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。
 点击在弹出菜单里选择 “proxy”，是全局代理，国内外流量都走代理。
 
 <center>
-<img src="chrome-proxy-06.png" width=480/>
+<img src="chrome-proxy-06.png" width="95%" />
 
 图6. 选择代理
 </center>
@@ -72,7 +72,7 @@ Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。
 对于国内的网站，仍用 “direct” 直接连接。（我这里不好截图，拍的渣图凑合看，后面再换上。）
 
 <center>
-<img src="chrome-proxy-07.png" width=480/>
+<img src="chrome-proxy-07.png" width="95%" />
 
 图7. 配置自动切换
 </center>
@@ -84,7 +84,7 @@ Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。
 试试被墙网站：[Google][google]，[Twitter][twitter]，[YouTube][youtube]。
 
 <center>
-<img src="chrome-proxy-08.png" width=720/>
+<img src="chrome-proxy-08.png" width="95%" />
 
 图8. 打开 Google 试试
 </center>

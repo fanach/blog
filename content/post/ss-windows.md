@@ -30,7 +30,7 @@ Windows
 下载后解压，解压后运行 Shadowsocks 。
 
 <center>
-<img src="windows-shadowsocks-01.png"/>
+<img src="windows-shadowsocks-01.png" />
 
 图1. Shadowsocks图标
 </center>
@@ -40,7 +40,7 @@ Windows
 和加密方式，然后点确定。
 
 <center>
-<img src="windows-shadowsocks-02.png"/>
+<img src="windows-shadowsocks-02.png" width="80%" />
 
 图2. 配置界面
 </center>
@@ -48,7 +48,7 @@ Windows
 点确定后，右下角弹出提示。
 
 <center>
-<img src="windows-shadowsocks-03.png"/>
+<img src="windows-shadowsocks-03.png" width="80%" />
 
 图3. 任务栏图标
 </center>
@@ -56,7 +56,7 @@ Windows
 右键程序图标，弹出主菜单，勾选“启用系统代理”。
 
 <center>
-<img src="windows-shadowsocks-04.png"/>
+<img src="windows-shadowsocks-04.png" width="80%" />
 
 图4. 启用Shadowsocks
 </center>
@@ -67,7 +67,7 @@ Windows
 试试被墙网站：[Google][1]，[Twitter][2]，[YouTube][3]
 
 <center>
-<img src="windows-shadowsocks-05.png"/>
+<img src="windows-shadowsocks-05.png" width="95%" />
 
 图5. 打开Twitter试试
 </center>
@@ -84,7 +84,7 @@ Windows
 帐号仅用于**科学研究**和**学术交流**用途，请务必遵守相关法规，转发敏感内容需要慎重。
 
 <center>
-<img src="ss-law.png" width=600/>
+<img src="ss-law.png" width="95%"/>
 </center>
 
 任何个人和组织使用网络应当遵守宪法法律，遵守公共秩序，尊重社会公德，不得危害网络安全，

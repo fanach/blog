@@ -6,7 +6,7 @@ description = "我用 Vim 写 Markdown，Hugo 生成静态内容，Chrome 预览
 
 
 <center>
-<img src="hugo-ci-page.png" width=480 />
+<img src="hugo-ci-page.png" width="70%" />
 </center>
 
 # 啰嗦一会
@@ -149,7 +149,7 @@ hugo server
 你应该能够看到这样的页面。
 
 <center>
-<img src="blog-tutorial-01.png" width=720 />
+<img src="blog-tutorial-01.png" width="95%" />
 
 图1. 首次生成的页面
 </center>
@@ -193,13 +193,13 @@ title = "first article"
 写好后，在新的控制台里执行 `hugo server` 生成页面并预览。
 
 <center>
-<img src="blog-tutorial-02.png" width=720 />
+<img src="blog-tutorial-02.png" width="95%" />
 
 图2. 新建的文章
 </center>
 
 <center>
-<img src="blog-tutorial-03.png" width=720 />
+<img src="blog-tutorial-03.png" width="95%" />
 
 图3. 新建的文章内容
 </center>
@@ -218,33 +218,39 @@ Hugo Server 可以在你一边写 Markdown 时，一边监视文件改动，在�
 
 这样，就可以添加图片了。
 
-图片示例1. 简单方式
+图片示例1. 引入原图
 
 ```sh
 ![MyCat](cat.jpg)
 ```
 ![MyCat](cat.jpg)
 
-图片示例2. 限定宽度（高度按比例缩放）
+图片示例2. 相对屏幕宽度比例
+```sh
+<img src="cat.jpg" width="90%" />
+```
+<img src="cat.jpg" width="90%" />
+
+图片示例2. 固定宽度（高度按比例缩放）
 
 如果想限制图像的宽度、高度，或者设置对齐方式。那么可以嵌入 HTML 。
 ```sh
-<img src="cat.jpg" width=400 />
+<img src="cat.jpg" width="400" />
 ```
-<img src="cat.jpg" width=400 />
+<img src="cat.jpg" width="400" />
 
 图片示例3. 居中对齐，并添加文本
 
 ```sh
 <center>
-<img src="cat.jpg" width=400 />
+<img src="cat.jpg" width="95%" />
 
 图xx. 暗中窥视
 </center>
 ```
 
 <center>
-<img src="cat.jpg" width=400 />
+<img src="cat.jpg" width="95%" />
 
 图xx. 暗中窥视
 </center>
@@ -280,7 +286,7 @@ title = "Fanach Blog"
 导航栏中可以添加链接对内容进行分类。
 
 <center>
-<img src="blog-tutorial-04.png" width=720 />
+<img src="blog-tutorial-04.png" width="95%" />
 
 图4. 导航栏
 </center>
@@ -300,7 +306,7 @@ title = "Fanach Blog"
 其中，`weight` 为从左向右的显示顺序。
 
 <center>
-<img src="blog-tutorial-05.png" width=720 />
+<img src="blog-tutorial-05.png" width="95%" />
 
 图5. 导航栏新增链接
 </center>
@@ -310,7 +316,7 @@ title = "Fanach Blog"
 下面在 `content` 目录下，新建文件 `about.md`，并使用写上一些介绍文字。
 
 <center>
-<img src="blog-tutorial-06.png" width=720 />
+<img src="blog-tutorial-06.png" width="95%" />
 
 图6. About 页面
 </center>
@@ -320,7 +326,7 @@ title = "Fanach Blog"
 左上角无法显示的图片为 Logo，需要准备一张约 64×64 的图标文件（ico、png、jpg 格式都可以）。
 
 <center>
-<img src="blog-tutorial-07.ico" width=64 />
+<img src="blog-tutorial-07.ico" width="64" />
 
 图7. 小拳头
 </center>
@@ -341,7 +347,7 @@ title = "Fanach Blog"
 这样，再查看时候，应该有了 Logo 图标。
 
 <center>
-<img src="blog-tutorial-08.png" width=720 />
+<img src="blog-tutorial-08.png" width="95%" />
 
 图8. 导航栏设置 Logo
 </center>
@@ -480,7 +486,7 @@ $ git push origin master
 上传完成后，浏览器打开 `<yourname>.github.io` ，应该可以看到博客页面了。
 
 <center>
-<img src="blog-tutorial-09.png" width=720 />
+<img src="blog-tutorial-09.png" width="95%" />
 
 图9. GitHub Pages 页面
 </center>
@@ -494,7 +500,7 @@ $ git push origin master
 帐号可以启用 Travis CI 并允许 Travis CI 访问你的 GitHub Repo。
 
 <center>
-<img src="blog-tutorial-10.png" width=720 />
+<img src="blog-tutorial-10.png" width="95%" />
 
 图10. Travis CI 首页
 </center>
@@ -517,7 +523,7 @@ Settings -> Personal access tokens -> Generate new token，输入密码。
 填入 Token 名称，并只勾选 `public_repo` 这一项目。
 
 <center>
-<img src="blog-tutorial-11.png" width=720 />
+<img src="blog-tutorial-11.png" width="95%" />
 
 图11. 生成 Token
 </center>
@@ -528,7 +534,7 @@ Settings -> Personal access tokens -> Generate new token，输入密码。
 点击这里的加号。
 
 <center>
-<img src="blog-tutorial-12.png" width=320 />
+<img src="blog-tutorial-12.png" width="95%" />
 
 图12. 添加 Repo
 </center>
@@ -536,7 +542,7 @@ Settings -> Personal access tokens -> Generate new token，输入密码。
 点击滑条启用 Repo。
 
 <center>
-<img src="blog-tutorial-13.png" width=720 />
+<img src="blog-tutorial-13.png" width="95%" />
 
 图13. 启用 Repo
 </center>
@@ -549,7 +555,7 @@ Settings -> Personal access tokens -> Generate new token，输入密码。
 在 “Environment Variables” 中，创建环境变量，键为 “GITHUB_API_KEY”，值为上面复制的 Token。
 
 <center>
-<img src="blog-tutorial-14.png" width=720 />
+<img src="blog-tutorial-14.png" width="95%" />
 
 图14. 配置 Job
 </center>
@@ -559,7 +565,7 @@ Settings -> Personal access tokens -> Generate new token，输入密码。
 最后，点最右侧 “ADD” 按钮。
 
 <center>
-<img src="blog-tutorial-15.png" width=720 />
+<img src="blog-tutorial-15.png" width="95%" />
 
 图15. 添加变量
 </center>
@@ -607,7 +613,7 @@ deploy:
 添加文件 `.travis.yml` 并 push 到 `blog` 中，接着将会进行一次构建。
 
 <center>
-<img src="blog-tutorial-16.png" width=720 />
+<img src="blog-tutorial-16.png" width="95%" />
 
 图16. 构建过程
 </center>

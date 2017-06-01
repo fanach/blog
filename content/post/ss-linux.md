@@ -24,7 +24,7 @@ wget https://github.com/fanach/download/releases/download/latest/shadowsocks-loc
 ```
 
 <center>
-<img src="linux-shadowsocks-01.png" width=720/>
+<img src="linux-shadowsocks-01.png" width="95%" />
 
 图1. Linux 下载 Shadowsocks
 </center>
@@ -41,7 +41,7 @@ $ chmod +x shadowsocks-local-linux32-1.1.5
 ```
 
 <center>
-<img src="linux-shadowsocks-02.png" width=720/>
+<img src="linux-shadowsocks-02.png" width="95%" />
 
 图2. 解压与添加权限
 </center>
@@ -50,7 +50,7 @@ $ chmod +x shadowsocks-local-linux32-1.1.5
 查看运行参数。
 
 <center>
-<img src="linux-shadowsocks-03.png" width=720/>
+<img src="linux-shadowsocks-03.png" width="95%" />
 
 图3. 运行参数
 </center>
@@ -66,7 +66,7 @@ $ ./shadowsocks-local-linux32-1.1.5 -s 112.113.114.115 -p 8388 -k abc123 -l 1080
 `1080` 为本地端口。
 
 <center>
-<img src="linux-shadowsocks-04.png" width=720/>
+<img src="linux-shadowsocks-04.png" width="95%" />
 
 图4. 运行 Shadowsocks
 </center>
@@ -80,7 +80,7 @@ $ ./shadowsocks-local-linux32-1.1.5 -s 112.113.114.115 -p 8388 -k abc123 -l 1080
 在 Firefox 地址栏直接输入 `about:preferences#advanced` 打开高级设置页面。
 
 <center>
-<img src="linux-shadowsocks-05.png" width=720/>
+<img src="linux-shadowsocks-05.png" width="95%" />
 
 图5. Firefox 高级设置
 </center>
@@ -91,7 +91,7 @@ $ ./shadowsocks-local-linux32-1.1.5 -s 112.113.114.115 -p 8388 -k abc123 -l 1080
 并设置 “SOCKS HOST” 地址为 `127.0.0.1`，端口为 `1080`（本地端口），类型为 “SOCKS v5”。
 
 <center>
-<img src="linux-shadowsocks-06.png" width=720/>
+<img src="linux-shadowsocks-06.png" width="95%" />
 
 图6. 设置代理
 </center>
@@ -100,7 +100,7 @@ $ ./shadowsocks-local-linux32-1.1.5 -s 112.113.114.115 -p 8388 -k abc123 -l 1080
 拖到下面，勾选 “Proxy DNS when using SOCKS v5”，让 DNS 服务也走代理。
 
 <center>
-<img src="linux-shadowsocks-07.png" width=720/>
+<img src="linux-shadowsocks-07.png" width="95%" />
 
 图7. 代理 DNS
 </center>
@@ -114,7 +114,7 @@ $ ./shadowsocks-local-linux32-1.1.5 -s 112.113.114.115 -p 8388 -k abc123 -l 1080
 试试被墙网站：[Google][google]，[Twitter][twitter]，[YouTube][youtube]。
 
 <center>
-<img src="linux-shadowsocks-08.png" width=720/>
+<img src="linux-shadowsocks-08.png" width="95%" />
 
 图8. 打开 Google 试试
 </center>
@@ -180,7 +180,7 @@ $ sudo chmod +x /usr/local/bin/ss
 这样，想要启动 Shadowsocks 只需要在任意窗口执行 `ss` 便好了。
 
 <center>
-<img src="linux-shadowsocks-09.png" width=720/>
+<img src="linux-shadowsocks-09.png" width="95%" />
 
 图9. 简化后的命令
 </center>
@@ -276,7 +276,7 @@ $ proxychains4 curl https://www.google.com.hk
 ```
 
 <center>
-<img src="linux-shadowsocks-10.png" width=720/>
+<img src="linux-shadowsocks-10.png" width="95%" />
 
 图10. 使用 ProxyChain 给 curl 代理
 </center>
@@ -291,7 +291,7 @@ $ proxychains4 curl https://www.google.com.hk
 帐号仅用于**科学研究**和**学术交流**用途，请务必遵守相关法规，转发敏感内容需要慎重。
 
 <center>
-<img src="ss-law.png" width=600/>
+<img src="ss-law.png" width="95%" />
 </center>
 
 任何个人和组织使用网络应当遵守宪法法律，遵守公共秩序，尊重社会公德，不得危害网络安全，
