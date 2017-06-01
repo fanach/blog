@@ -16,7 +16,7 @@ title = "Fanach Blog"
 # enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
 canonifyURLs = true
 
-disqusShortname = "VeayoX"
+disqusShortname = "fanach"
 
 # Enable Emoji emoticons support for page content.
 # See www.emoji-cheat-sheet.com
