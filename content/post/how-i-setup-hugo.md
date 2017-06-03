@@ -2,6 +2,8 @@
 title = "我是如何用 Hugo、Travis CI 和 GitHub Pages 搭建博客的?"
 date = "2017-05-17T16:10:32+08:00"
 description = "我用 Vim 写 Markdown，Hugo 生成静态内容，Chrome 预览，用 Git 进行版本控制并存储博问和配置到 GitHub，用 Travis CI 构建并发布博文到 GitHub Pages。"
+
+draft = true
 +++
 
 

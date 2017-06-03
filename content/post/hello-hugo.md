@@ -9,6 +9,7 @@ tags:
   - "example"
   - "hugo"
   - "blog"
+draft: true
 ---
 
 Hello from Hugo! If you're reading this in your browser, good job! The file `content/post/hello-hugo.md` has been
