@@ -11,7 +11,7 @@ buildFuture = false
 buildExpired = false
 
 languageCode = "en-us"
-title = "Fanach Blog"
+title = "Fanach - 翻那墙"
 
 # enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
 canonifyURLs = true

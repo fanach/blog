@@ -4,7 +4,7 @@ language: go
 
 git:
   depth: 1
-  
+
 install: go get -v github.com/spf13/hugo
 
 script:
