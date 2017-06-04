@@ -20,7 +20,7 @@ tags:
 Android
 </center>
 
-本文简要叙述 Android 设备中（适用于Windows XP，7，8，10）Shadowsocks 客户端的安装、配置
+本文简要叙述 Android 设备中 Shadowsocks 客户端的安装、配置
 和使用过程。
 
 # 下载软件
