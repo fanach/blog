@@ -25,7 +25,7 @@ Android
 
 # 下载软件
 下载 Android 版本 Shadowsocks 软件，叫“影梭”，点击下载
-[shadowsocks-nightly-4.1.7.apk][download-android] 。
+[shadowsocks-nightly-3.3.1.apk][download-android-3.3.1] 。
 
 # 安装运行
 下载后安装 apk ，安装完成后打开 App 。
@@ -88,9 +88,18 @@ Android
 
 附：《[中华人民共和国网络安全法][5]》
 
+# 修改历史
+* 2017.06.14 使用 3.3.1 版安卓客户端（无广告，界面与配图一致）
+* 2017.06.08 添加一些 Tips
+* 2017.06.04 移除多余错误文字（拷贝自 Windows 一文）
+* 2017.06.01 图片在移动设备上适配
+* 2017.05.30 添加网络安全法配图
+* 2017.05.29 修复下载链接
+
 [1]: https://google.com
 [2]: https://twitter.com
 [3]: https://youtube.com
 [4]: https://youtube.com
 [5]: http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html
 [download-android]: https://github.com/fanach/download/releases/download/latest/shadowsocks-nightly-4.1.7.apk
+[download-android-3.3.1]: https://github.com/fanach/download/releases/download/latest/shadowsocks-nightly-3.3.1.apk
