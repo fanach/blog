@@ -31,11 +31,11 @@ Macbook
 <center>
 <img src="mac-shadowsocks-01.png" width="640px"/>
 
-安装Shadowsocks
+安装 Shadowsocks
 </center>
 
 # 配置帐号
-进入Launchpad，打开ShadowsocksX程序，程序图标出现在右上方，点击
+进入 Launchpad，打开 ShadowsocksX 程序，程序图标出现在右上方，点击
 图标 - “服务器” - “服务器设定”。
 
 <center>
@@ -52,7 +52,7 @@ Macbook
 配置界面
 </center>
 
-选择刚刚配置好的服务器，点“打开Shadowsocks”，完成设置。
+选择刚刚配置好的服务器，点 “打开 Shadowsocks”，完成设置。
 
 <center>
 <img src="mac-shadowsocks-04.png" width="500px"/>
@@ -74,15 +74,15 @@ Macbook
 
 # Tips
 
-1. 第一次配置后，记得点击“从 GFW 更新 PAC”，将会联网更新被墙的网站列表，
-这样被墙的网站才走代理，如果有些网站打不开就试试“全局模式”；
+1. 第一次配置后，记得点击 “从 GFW 更新 PAC”，将会联网更新被墙的网站列表，
+这样被墙的网站才走代理，如果有些网站打不开就试试 “全局模式”；
 
 2. 注意加密方式选择 AES-256-CFB；
 
 3. 如果稳定性欠佳，建议尝试不同节点。
 
 # 法律法规
-帐号仅用于**科学研究**和**学术交流**用途，请务必遵守相关法规，转发敏感内容需要慎重。
+帐号仅用于 ** 科学研究 ** 和 ** 学术交流 ** 用途，请务必遵守相关法规，转发敏感内容需要慎重。
 
 <center>
 <img src="ss-law.png" width=600/>

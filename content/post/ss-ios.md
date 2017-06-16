@@ -33,32 +33,32 @@ iOS 应用商店中，也有免费的软件，如 [Wingy][wingy] 、LiFi Shadows
 <center>
 <img src="ios-shadowrocket-01.png" width=320/>
 
-图1. 切换到已付费 Apple ID
+图 1. 切换到已付费 Apple ID
 </center>
 
 AppStore 搜索 “Shadowrocket” 并下载安装。
 
 <center>
-<img src="ios-shadowrocket-02.png"  width=320/>
+<img src="ios-shadowrocket-02.png" width=320/>
 
-图2. 搜索Shadowrocket
+图 2. 搜索 Shadowrocket
 </center>
 
 等待安装完成。
 
 <center>
-<img src="ios-shadowrocket-03.png"  width=320/>
+<img src="ios-shadowrocket-03.png" width=320/>
 
-图3. 安装完成
+图 3. 安装完成
 </center>
 
 # 配置帐号
 安装完成后打开应用，右上角点 **+** 号，添加配置。
 
 <center>
-<img src="ios-shadowrocket-04.png"  width=320/>
+<img src="ios-shadowrocket-04.png" width=320/>
 
-图4. 添加帐号
+图 4. 添加帐号
 </center>
 
 根据提供的帐号信息，正确填写服务器地址（IP 或域名）、远程端口号、密码、加密方式。
@@ -68,7 +68,7 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 <center>
 <img src="ios-shadowrocket-05.png" width=320/>
 
-图5. 填写配置
+图 5. 填写配置
 </center>
 
 如下图向右侧滑动按钮，开始连接。
@@ -76,7 +76,7 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 <center>
 <img src="ios-shadowrocket-06.png" width=320/>
 
-图6. 连接
+图 6. 连接
 </center>
 
 首次连接，会弹出下面的对话框，点 “Allow”，后面还会需要验证指纹或者输入锁屏密码。
@@ -84,7 +84,7 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 <center>
 <img src="ios-shadowrocket-07.png" width=320/>
 
-图7. 授权添加 VPN 配置
+图 7. 授权添加 VPN 配置
 </center>
 
 再次滑动后，显示 “Connected” 表示已连接，上方出现 VPN 图标。
@@ -92,7 +92,7 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 <center>
 <img src="ios-shadowrocket-08.png" width=320/>
 
-图8. 已连接
+图 8. 已连接
 </center>
 
 # 验证是否成功
@@ -103,7 +103,7 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 <center>
 <img src="ios-shadowrocket-09.png" width=320/>
 
-图9. 打开 Instagram 试试
+图 9. 打开 Instagram 试试
 </center>
 
 # Tips
@@ -113,10 +113,10 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 2. 如果稳定性欠佳，建议尝试不同节点。
 
 # 法律法规
-帐号仅用于**科学研究**和**学术交流**用途，请务必遵守相关法规，转发敏感内容需要慎重。
+帐号仅用于 ** 科学研究 ** 和 ** 学术交流 ** 用途，请务必遵守相关法规，转发敏感内容需要慎重。
 
 <center>
-<img src="ss-law.png" width="95%" />
+<img src="ss-law.png" width="95%"/>
 </center>
 
 任何个人和组织使用网络应当遵守宪法法律，遵守公共秩序，尊重社会公德，不得危害网络安全，

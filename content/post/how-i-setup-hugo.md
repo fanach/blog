@@ -8,7 +8,7 @@ draft = true
 
 
 <center>
-<img src="hugo-ci-page.png" width="70%" />
+<img src="hugo-ci-page.png" width="70%"/>
 </center>
 
 # 啰嗦一会
@@ -46,7 +46,7 @@ Hugo 能够无缝支持 GitHub Pages。直到有一天还是发现了，惊喜�
 
 那么，继续阅读，这篇教程正适合你。
 
-> 熟悉 Hugo 与 GitHub Pages 的读者，可直接访问[本博客源文件][blog-src]查看配置、主题吧。
+> 熟悉 Hugo 与 GitHub Pages 的读者，可直接访问 [本博客源文件][blog-src] 查看配置、主题吧。
 
 # 需要哪些东西？
 那么先列一下炖这锅博客需要的原材料和烹饪技术：
@@ -65,7 +65,7 @@ Hugo 能够无缝支持 GitHub Pages。直到有一天还是发现了，惊喜�
 MacOS 用户可类推过程。
 
 # 下载 Hugo
-从 [Hugo 官网][hugo]或 [GitHub Release 页面][get-hugo]获取 Hugo。
+从 [Hugo 官网][hugo] 或 [GitHub Release 页面][get-hugo] 获取 Hugo。
 
 Linux 用户打开控制台，直接执行:
 ```sh
@@ -151,9 +151,9 @@ hugo server
 你应该能够看到这样的页面。
 
 <center>
-<img src="blog-tutorial-01.png" width="95%" />
+<img src="blog-tutorial-01.png" width="95%"/>
 
-图1. 首次生成的页面
+图 1. 首次生成的页面
 </center>
 
 好了，尽管没有什么文章，但可以看到下面 “RSS feed” 字样了，说明的确是生成了
@@ -190,20 +190,20 @@ title = "first article"
 
 下面就是用自己喜欢的文本编辑器，编写这个 Markdown 文件。
 
-如果还不熟悉 Markdown 语法，可以参考这篇[《Markdown——入门指南》][md-guide]。
+如果还不熟悉 Markdown 语法，可以参考这篇 [《Markdown——入门指南》][md-guide]。
 
 写好后，在新的控制台里执行 `hugo server` 生成页面并预览。
 
 <center>
-<img src="blog-tutorial-02.png" width="95%" />
+<img src="blog-tutorial-02.png" width="95%"/>
 
-图2. 新建的文章
+图 2. 新建的文章
 </center>
 
 <center>
-<img src="blog-tutorial-03.png" width="95%" />
+<img src="blog-tutorial-03.png" width="95%"/>
 
-图3. 新建的文章内容
+图 3. 新建的文章内容
 </center>
 
 
@@ -220,41 +220,41 @@ Hugo Server 可以在你一边写 Markdown 时，一边监视文件改动，在�
 
 这样，就可以添加图片了。
 
-图片示例1. 引入原图
+图片示例 1. 引入原图
 
 ```sh
 ![MyCat](cat.jpg)
 ```
 ![MyCat](cat.jpg)
 
-图片示例2. 相对屏幕宽度比例
+图片示例 2. 相对屏幕宽度比例
 ```sh
-<img src="cat.jpg" width="90%" />
+<img src="cat.jpg" width="90%"/>
 ```
-<img src="cat.jpg" width="90%" />
+<img src="cat.jpg" width="90%"/>
 
-图片示例2. 固定宽度（高度按比例缩放）
+图片示例 2. 固定宽度（高度按比例缩放）
 
 如果想限制图像的宽度、高度，或者设置对齐方式。那么可以嵌入 HTML 。
 ```sh
-<img src="cat.jpg" width="400" />
+<img src="cat.jpg" width="400"/>
 ```
-<img src="cat.jpg" width="400" />
+<img src="cat.jpg" width="400"/>
 
-图片示例3. 居中对齐，并添加文本
+图片示例 3. 居中对齐，并添加文本
 
 ```sh
 <center>
-<img src="cat.jpg" width="95%" />
+<img src="cat.jpg" width="95%"/>
 
-图xx. 暗中窥视
+图 xx. 暗中窥视
 </center>
 ```
 
 <center>
-<img src="cat.jpg" width="95%" />
+<img src="cat.jpg" width="95%"/>
 
-图xx. 暗中窥视
+图 xx. 暗中窥视
 </center>
 
 > 使用 Hugo 的 [Shortcodes][hugo-short] 也可以引入图片。
@@ -288,12 +288,12 @@ title = "Fanach Blog"
 导航栏中可以添加链接对内容进行分类。
 
 <center>
-<img src="blog-tutorial-04.png" width="95%" />
+<img src="blog-tutorial-04.png" width="95%"/>
 
-图4. 导航栏
+图 4. 导航栏
 </center>
 
-编辑文件 `config.toml`。比如想要添加一个“Articles”，一个“About”页面，则添加如下内容。
+编辑文件 `config.toml`。比如想要添加一个 “Articles”，一个“About” 页面，则添加如下内容。
 
 ```toml
 [[menu.main]]
@@ -308,19 +308,19 @@ title = "Fanach Blog"
 其中，`weight` 为从左向右的显示顺序。
 
 <center>
-<img src="blog-tutorial-05.png" width="95%" />
+<img src="blog-tutorial-05.png" width="95%"/>
 
-图5. 导航栏新增链接
+图 5. 导航栏新增链接
 </center>
 
-此时，点击“About”后，出现 `404 page not found`，原因是未创建相应的文件。
+此时，点击 “About” 后，出现 `404 page not found`，原因是未创建相应的文件。
 
 下面在 `content` 目录下，新建文件 `about.md`，并使用写上一些介绍文字。
 
 <center>
-<img src="blog-tutorial-06.png" width="95%" />
+<img src="blog-tutorial-06.png" width="95%"/>
 
-图6. About 页面
+图 6. About 页面
 </center>
 
 ## 设置左上角 Logo
@@ -328,9 +328,9 @@ title = "Fanach Blog"
 左上角无法显示的图片为 Logo，需要准备一张约 64×64 的图标文件（ico、png、jpg 格式都可以）。
 
 <center>
-<img src="blog-tutorial-07.ico" width="64" />
+<img src="blog-tutorial-07.ico" width="64"/>
 
-图7. 小拳头
+图 7. 小拳头
 </center>
 
 拷贝文件到 `static/images/` 目录下。
@@ -349,15 +349,15 @@ title = "Fanach Blog"
 这样，再查看时候，应该有了 Logo 图标。
 
 <center>
-<img src="blog-tutorial-08.png" width="95%" />
+<img src="blog-tutorial-08.png" width="95%"/>
 
-图8. 导航栏设置 Logo
+图 8. 导航栏设置 Logo
 </center>
 
 > 并不是所有主题都是这样设置的。需要了解所用的主题 template 文件里是怎样写的。
 如 Lithium 主题中，文件 themes/hugo-lithium-theme/layouts/partials/nav.html 写了
 ```
-<img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}"
+<img src="{{ .Site.BaseURL}}images/{{.Site.Params.logo.url}}"
 ```
 
 所以得知 用的 Logo 文件路径与配置文件里的层次关系。
@@ -488,9 +488,9 @@ $ git push origin master
 上传完成后，浏览器打开 `<yourname>.github.io` ，应该可以看到博客页面了。
 
 <center>
-<img src="blog-tutorial-09.png" width="95%" />
+<img src="blog-tutorial-09.png" width="95%"/>
 
-图9. GitHub Pages 页面
+图 9. GitHub Pages 页面
 </center>
 
 至此，一个博客已经出锅了。
@@ -502,20 +502,20 @@ $ git push origin master
 帐号可以启用 Travis CI 并允许 Travis CI 访问你的 GitHub Repo。
 
 <center>
-<img src="blog-tutorial-10.png" width="95%" />
+<img src="blog-tutorial-10.png" width="95%"/>
 
-图10. Travis CI 首页
+图 10. Travis CI 首页
 </center>
 
 
 如果想在每一次新建、修改文章或替换主题后，只需要 commit 和 push 两条命令提交改动到
-`blog` 这个 Repo，而无需重新生成和更新 `<yourname>.github.io`这个 Repo， 就能让
+`blog` 这个 Repo，而无需重新生成和更新 `<yourname>.github.io` 这个 Repo， 就能让
 GitHub Pages 自动更新。那么使用 Travis CI 便能实现。
 
 这里 Travis CI 会在云端自动检测 blog 这个 Repo 的更新，并代替人工生成静态内容、
 提交改动的过程（即上面 “发布到 GitHub Pages” 这个过程）。
 
-> 用“检测”一词并不准确，其实是在对 blog 的 push 操作后，GitHub 发了通知触发 Travis CI 。
+> 用 “检测” 一词并不准确，其实是在对 blog 的 push 操作后，GitHub 发了通知触发 Travis CI 。
 
 ### 生成 GitHub Token
 
@@ -525,28 +525,28 @@ Settings -> Personal access tokens -> Generate new token，输入密码。
 填入 Token 名称，并只勾选 `public_repo` 这一项目。
 
 <center>
-<img src="blog-tutorial-11.png" width="95%" />
+<img src="blog-tutorial-11.png" width="95%"/>
 
-图11. 生成 Token
+图 11. 生成 Token
 </center>
 
-点底部 Generate token，复制这个Token，下面将用到。
+点底部 Generate token，复制这个 Token，下面将用到。
 
 ### 添加 Repo
 点击这里的加号。
 
 <center>
-<img src="blog-tutorial-12.png" width="95%" />
+<img src="blog-tutorial-12.png" width="95%"/>
 
-图12. 添加 Repo
+图 12. 添加 Repo
 </center>
 
 点击滑条启用 Repo。
 
 <center>
-<img src="blog-tutorial-13.png" width="95%" />
+<img src="blog-tutorial-13.png" width="95%"/>
 
-图13. 启用 Repo
+图 13. 启用 Repo
 </center>
 
 > 这里截图用的是 zyfdegh/blog 作为示例，而不是 fanach/blog，因为后者已经配置过。
@@ -557,19 +557,19 @@ Settings -> Personal access tokens -> Generate new token，输入密码。
 在 “Environment Variables” 中，创建环境变量，键为 “GITHUB_API_KEY”，值为上面复制的 Token。
 
 <center>
-<img src="blog-tutorial-14.png" width="95%" />
+<img src="blog-tutorial-14.png" width="95%"/>
 
-图14. 配置 Job
+图 14. 配置 Job
 </center>
 
-确保右侧按钮处于**灰色OFF**状态，否则构建日志中，将会输出 Token，并容易泄漏。
+确保右侧按钮处于 ** 灰色 OFF** 状态，否则构建日志中，将会输出 Token，并容易泄漏。
 
 最后，点最右侧 “ADD” 按钮。
 
 <center>
-<img src="blog-tutorial-15.png" width="95%" />
+<img src="blog-tutorial-15.png" width="95%"/>
 
-图15. 添加变量
+图 15. 添加变量
 </center>
 
 ### 添加 .travis.yml
@@ -615,9 +615,9 @@ deploy:
 添加文件 `.travis.yml` 并 push 到 `blog` 中，接着将会进行一次构建。
 
 <center>
-<img src="blog-tutorial-16.png" width="95%" />
+<img src="blog-tutorial-16.png" width="95%"/>
 
-图16. 构建过程
+图 16. 构建过程
 </center>
 
 如果生成、部署结果没有错，那将会 GitHub Pages 页面将会更新。
@@ -634,7 +634,7 @@ deploy:
 
 ## FAQ
 ### 如果我有自己的域名，并想重定向到 GitHub Pages，可以嘛？
-**答：** 似乎不行，我试过 CNAME 重定向，结果 GitHub Pages 是工作了。但自己的域名显示不了。
+** 答：** 似乎不行，我试过 CNAME 重定向，结果 GitHub Pages 是工作了。但自己的域名显示不了。
 可以试一试，改掉 baseURL 为自己的域名，然后重新生成、提交一次。但这样就
 牺牲 GitHub Pages 了。
 

@@ -20,7 +20,7 @@ tags:
 Windows
 </center>
 
-本文简要叙述 Windows 下（适用于Windows XP，7，8，10）Shadowsocks 客户端的安装、配置
+本文简要叙述 Windows 下（适用于 Windows XP，7，8，10）Shadowsocks 客户端的安装、配置
 和使用过程。
 
 # 下载软件
@@ -30,9 +30,9 @@ Windows
 下载后解压，解压后运行 Shadowsocks 。
 
 <center>
-<img src="windows-shadowsocks-01.png" />
+<img src="windows-shadowsocks-01.png"/>
 
-图1. Shadowsocks图标
+图 1. Shadowsocks 图标
 </center>
 
 # 配置帐号
@@ -40,25 +40,25 @@ Windows
 和加密方式，然后点确定。
 
 <center>
-<img src="windows-shadowsocks-02.png" width="80%" />
+<img src="windows-shadowsocks-02.png" width="80%"/>
 
-图2. 配置界面
+图 2. 配置界面
 </center>
 
 点确定后，右下角弹出提示。
 
 <center>
-<img src="windows-shadowsocks-03.png" width="80%" />
+<img src="windows-shadowsocks-03.png" width="80%"/>
 
-图3. 任务栏图标
+图 3. 任务栏图标
 </center>
 
-右键程序图标，弹出主菜单，勾选“启用系统代理”。
+右键程序图标，弹出主菜单，勾选 “启用系统代理”。
 
 <center>
-<img src="windows-shadowsocks-04.png" width="80%" />
+<img src="windows-shadowsocks-04.png" width="80%"/>
 
-图4. 启用Shadowsocks
+图 4. 启用 Shadowsocks
 </center>
 
 # 验证是否成功
@@ -67,9 +67,9 @@ Windows
 试试被墙网站：[Google][1]，[Twitter][2]，[YouTube][3]
 
 <center>
-<img src="windows-shadowsocks-05.png" width="95%" />
+<img src="windows-shadowsocks-05.png" width="95%"/>
 
-图5. 打开Twitter试试
+图 5. 打开 Twitter 试试
 </center>
 
 # Tips
@@ -84,7 +84,7 @@ Windows
 
 
 # 法律法规
-帐号仅用于**科学研究**和**学术交流**用途，请务必遵守相关法规，转发敏感内容需要慎重。
+帐号仅用于 ** 科学研究 ** 和 ** 学术交流 ** 用途，请务必遵守相关法规，转发敏感内容需要慎重。
 
 <center>
 <img src="ss-law.png" width="95%"/>
