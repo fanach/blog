@@ -5,78 +5,78 @@ comments = false
 # Shadowsocks 客户端
 
 ## Windows
-### 下载方式1 （国内）
+### 下载方式 1 （国内）
 
 shadowsocks-2.5.8.zip [立即下载][win-oschina]
 
 MD5：dbbfb203f87460cdc0ffac96c5dc3563
 
-### 下载方式2 （国外）
+### 下载方式 2 （国外）
 shadowsocks-2.5.8.zip [立即下载][win]
 
 MD5：dbbfb203f87460cdc0ffac96c5dc3563
 
-### 下载方式3 （官方 Release）
+### 下载方式 3 （官方 Release）
 进入 [shadowsocks-windows Release 页面][win-official]。
 
 ## Android（旧版，无广告）
-### 下载方式1 （国内）
+### 下载方式 1 （国内）
 shadowsocks-nightly-3.3.1.apk [立即下载][android-oschina-3.3.1]
 
 MD5：026ada31173691287c5b123c805795f8
 
-### 下载方式2 （国外）
+### 下载方式 2 （国外）
 shadowsocks-nightly-3.3.1.apk [立即下载][android-3.3.1]
 
 MD5：026ada31173691287c5b123c805795f8
 
-### 下载方式3 （官方 Release）
+### 下载方式 3 （官方 Release）
 最新版 4.1.7（截至 2017.06.14）。
 
 可进入 [shadowsocks-android Release 页面][android-official] 下载。
 
 ## MacOS
-### 下载方式1 （国内）
+### 下载方式 1 （国内）
 ShadowsocksX-2.6.3.dmg [立即下载][mac-oschina]
 
 MD5：c3406e8d4a5009efaa74d3a37b53fed8
 
-### 下载方式2 （国外）
+### 下载方式 2 （国外）
 ShadowsocksX-2.6.3.dmg [立即下载][mac]
 
 MD5：c3406e8d4a5009efaa74d3a37b53fed8
 
-### 下载方式3 （官方 Release）
+### 下载方式 3 （官方 Release）
 进入 [ShadowsocksX-NG Release 页面][mac-official]。
 
 ## Linux
-### 下载方式1 （国内）
+### 下载方式 1 （国内）
 shadowsocks-local-linux32-1.1.5.gz [立即下载][linux-oschina]
 
 MD5：b46f11a5d09c581bbc1aa1cda2bc1053
 
-### 下载方式2 （国外）
+### 下载方式 2 （国外）
 shadowsocks-local-linux32-1.1.5.gz [立即下载][linux]
 
 MD5：b46f11a5d09c581bbc1aa1cda2bc1053
 
-### 下载方式3 （官方 Release）
+### 下载方式 3 （官方 Release）
 进入 [shadowsocks-go Release 页面][linux-official]。
 
 # 额外工具
 
 ## SwitchyOmega
-### 下载方式1 （国内）
+### 下载方式 1 （国内）
 SwitchyOmega.2.4.6.crx [立即下载][crx-oschina]
 
 MD5：7333b7ec89496ec54001b97bbfc240ce
 
-### 下载方式2 （国外）
+### 下载方式 2 （国外）
 SwitchyOmega.2.4.6.crx [立即下载][crx]
 
 MD5：7333b7ec89496ec54001b97bbfc240ce
 
-### 下载方式3 （crx4chrome）
+### 下载方式 3 （crx4chrome）
 进入 [Crx4Chrome SwitchyOmega 页面][crx-4chrome]。
 
 > 如果无法下载，或者下载连接错误，可在下面留言，或者联络我。
