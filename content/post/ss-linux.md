@@ -1,6 +1,6 @@
 ---
-title = "Linux 上使用 Shadowsocks 教程"
-date = "2017-06-16"
+title: "Linux 上使用 Shadowsocks 教程"
+date: "2017-07-06"
 ---
 
 <center>

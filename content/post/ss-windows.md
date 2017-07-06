@@ -1,7 +1,7 @@
 ---
 title: "Windows 上使用 Shadowsocks 教程"
 description: "在 Windows 设备上安装 Shadowsocks、配置帐号，翻墙看世界！"
-date: "2017-05-20"
+date: "2017-07-06"
 categories:
   - "shadowsocks"
   - "vpn"
