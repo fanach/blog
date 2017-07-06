@@ -1,7 +1,7 @@
-+++
+---
 title = "Linux 上使用 Shadowsocks 教程"
-date = "2017-05-30"
-+++
+date = "2017-06-16"
+---
 
 <center>
 <img src="linux-icon.svg" width=128/>
@@ -288,7 +288,7 @@ $ proxychains4 curl https://www.google.com.hk
 1. 注意加密方式默认为 AES-256-CFB；
 
 # 法律法规
-帐号仅用于 ** 科学研究 ** 和 ** 学术交流 ** 用途，请务必遵守相关法规，转发敏感内容需要慎重。
+帐号仅用于 **科学研究** 和 **学术交流** 用途，请务必遵守相关法规，转发敏感内容需要慎重。
 
 <center>
 <img src="ss-law.png" width="95%"/>
@@ -301,6 +301,10 @@ $ proxychains4 curl https://www.google.com.hk
 合法权益等活动。
 
 附：《[中华人民共和国网络安全法][law]》
+
+# 修改历史
+* 2017.06.16 调节空格与缩进。
+* 2017.06.01 适配图片到移动设备。
 
 [google]: https://google.com
 [twitter]: https://twitter.com

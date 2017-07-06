@@ -1,7 +1,7 @@
 ---
 title: "iPhone/iPad 上使用 Shadowsocks 教程"
 description: "在 iOS 设备上安装 Shadowsocks、配置帐号，翻墙看世界！"
-date: "2017-05-20"
+date: "2017-06-16"
 categories:
   - "shadowsocks"
   - "vpn"
@@ -113,7 +113,7 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 2. 如果稳定性欠佳，建议尝试不同节点。
 
 # 法律法规
-帐号仅用于 ** 科学研究 ** 和 ** 学术交流 ** 用途，请务必遵守相关法规，转发敏感内容需要慎重。
+帐号仅用于 **科学研究** 和 **学术交流** 用途，请务必遵守相关法规，转发敏感内容需要慎重。
 
 <center>
 <img src="ss-law.png" width="95%"/>
@@ -126,6 +126,12 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 合法权益等活动。
 
 附：《[中华人民共和国网络安全法][5]》
+
+# 修改历史
+* 2017.06.16 调节空格与缩进。
+* 2017.06.01 图片在移动设备适配。
+* 2017.05.29 添加 Wingy 和 LiFi 等软件及其链接。
+* 2017.05.27 修改 ShadowRocket 价格。
 
 [1]: https://google.com
 [2]: https://twitter.com
