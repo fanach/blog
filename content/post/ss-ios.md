@@ -1,7 +1,7 @@
 ---
 title: "iPhone/iPad 上使用 Shadowsocks 教程"
 description: "在 iOS 设备上安装 Shadowsocks、配置帐号，翻墙看世界！"
-date: "2017-07-06"
+date: "2017-07-16"
 categories:
   - "shadowsocks"
   - "vpn"
@@ -27,8 +27,8 @@ iPhone / iPad
 
 （可私信联系我，提供已购买 Shadowrocket 的 Apple ID 账号，登录即可免费下载）
 
-iOS 应用商店中，也有免费的软件，如 [Wingy][wingy] 、LiFi Shadowsocks 和
- [SsrConnect][ssr] 等，也可试试。
+iOS 应用商店中，也有免费兼容 ss 的软件，如 [Wingy][wingy] 、LiFi Shadowsocks、
+[Waterdrop][waterdrop] 和 [SsrConnect][ssr] 等，也可试试。
 
 <center>
 <img src="ios-shadowrocket-01.png" width=320/>
@@ -128,6 +128,7 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 附：《[中华人民共和国网络安全法][5]》
 
 # 修改历史
+* 2017.07.16 添加 Waterdrop。
 * 2017.06.16 调节空格与缩进。
 * 2017.06.01 图片在移动设备适配。
 * 2017.05.29 添加 Wingy 和 LiFi 等软件及其链接。
@@ -140,3 +141,4 @@ AppStore 搜索 “Shadowrocket” 并下载安装。
 [5]: http://www.miit.gov.cn/n1146295/n1146557/n1146614/c5345009/content.html
 [wingy]: https://itunes.apple.com/cn/app/wingy-proxy-for-http-s-socks5/id1178584911
 [ssr]: https://itunes.apple.com/app/shadowconnecting/id1161221960
+[waterdrop]: https://itunes.apple.com/us/app/waterdrop-shadowsocks-client-for-ios/id1212107997?mt=8
